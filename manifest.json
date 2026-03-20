@@ -53,6 +53,54 @@
         "blob/aada5639aef93bd280a8814a4341dc0b22e08553.nq.gz",
         "blob/05a27c313567d617c75e75376888e080e0b800ee.nq.gz",
         "blob/da05082de614a66aaa8764a783d47719c1ca6eda.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/d601c88e38dd6cd5738980e1e6e9e0e63580c419.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d601c88e38dd6cd5738980e1e6e9e0e63580c419.nq.gz",
+      "repolex": "aggregate/repolex/d601c88e38dd6cd5738980e1e6e9e0e63580c419.nq.gz",
+      "dep": "dep/d601c88e38dd6cd5738980e1e6e9e0e63580c419.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "sniffio",
+          "githubOrg": "python-trio",
+          "githubRepo": "sniffio"
+        },
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "trio",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio"
+        },
+        {
+          "packageName": "hypothesis",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis"
+        },
+        {
+          "packageName": "anyio",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio"
+        },
+        {
+          "packageName": "async-generator",
+          "githubOrg": "python-trio",
+          "githubRepo": "async_generator"
+        },
+        {
+          "packageName": "curio",
+          "githubOrg": "dabeaz",
+          "githubRepo": "curio"
+        },
+        {
+          "packageName": "uvloop",
+          "githubOrg": "MagicStack",
+          "githubRepo": "uvloop"
+        }
       ]
     }
   ],
