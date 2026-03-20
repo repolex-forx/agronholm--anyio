@@ -1809,6 +1809,54 @@
         "blob/da05082de614a66aaa8764a783d47719c1ca6eda.nq.gz",
         "blob/ce5d3ead8875001b12737d4daadd46d52f2e5469.nq.gz",
         "blob/4306f5d42242bbaf9c285fd3c4809e314ef47614.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/dda3c913d884056d98e7b5f1220b2d9ba455f0c4.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/dda3c913d884056d98e7b5f1220b2d9ba455f0c4.nq.gz",
+      "repolex": "aggregate/repolex/dda3c913d884056d98e7b5f1220b2d9ba455f0c4.nq.gz",
+      "dep": "dep/dda3c913d884056d98e7b5f1220b2d9ba455f0c4.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "uvloop",
+          "githubOrg": "MagicStack",
+          "githubRepo": "uvloop"
+        },
+        {
+          "packageName": "trio",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio"
+        },
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "async-generator",
+          "githubOrg": "python-trio",
+          "githubRepo": "async_generator"
+        },
+        {
+          "packageName": "hypothesis",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis"
+        },
+        {
+          "packageName": "anyio",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio"
+        },
+        {
+          "packageName": "curio",
+          "githubOrg": "dabeaz",
+          "githubRepo": "curio"
+        },
+        {
+          "packageName": "sniffio",
+          "githubOrg": "python-trio",
+          "githubRepo": "sniffio"
+        }
       ]
     }
   ],
