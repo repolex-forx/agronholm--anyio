@@ -586,6 +586,44 @@
         "blob/05a27c313567d617c75e75376888e080e0b800ee.nq.gz",
         "blob/da05082de614a66aaa8764a783d47719c1ca6eda.nq.gz",
         "blob/4306f5d42242bbaf9c285fd3c4809e314ef47614.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/8c0bd7e581591b4180055896cbf72ae8b36003fc.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8c0bd7e581591b4180055896cbf72ae8b36003fc.nq.gz",
+      "repolex": "aggregate/repolex/8c0bd7e581591b4180055896cbf72ae8b36003fc.nq.gz",
+      "dep": "dep/8c0bd7e581591b4180055896cbf72ae8b36003fc.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyio",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio"
+        },
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "curio",
+          "githubOrg": "dabeaz",
+          "githubRepo": "curio"
+        },
+        {
+          "packageName": "trio",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio"
+        },
+        {
+          "packageName": "sniffio",
+          "githubOrg": "python-trio",
+          "githubRepo": "sniffio"
+        },
+        {
+          "packageName": "async-generator",
+          "githubOrg": "python-trio",
+          "githubRepo": "async_generator"
+        }
       ]
     }
   ],
