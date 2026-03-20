@@ -173,6 +173,39 @@
         "blob/aada5639aef93bd280a8814a4341dc0b22e08553.nq.gz",
         "blob/05a27c313567d617c75e75376888e080e0b800ee.nq.gz",
         "blob/da05082de614a66aaa8764a783d47719c1ca6eda.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/3232536b968d8668f5cfc2032248fa598e1933aa.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3232536b968d8668f5cfc2032248fa598e1933aa.nq.gz",
+      "repolex": "aggregate/repolex/3232536b968d8668f5cfc2032248fa598e1933aa.nq.gz",
+      "dep": "dep/3232536b968d8668f5cfc2032248fa598e1933aa.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyio",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio"
+        },
+        {
+          "packageName": "curio",
+          "githubOrg": "dabeaz",
+          "githubRepo": "curio"
+        },
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "async-generator",
+          "githubOrg": "python-trio",
+          "githubRepo": "async_generator"
+        },
+        {
+          "packageName": "trio",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio"
+        }
       ]
     }
   ],
