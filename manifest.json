@@ -5523,6 +5523,35 @@
         "blob/61b8fed4a1450177648ac907af5dbf410edca395.nq.gz",
         "blob/ce5d3ead8875001b12737d4daadd46d52f2e5469.nq.gz",
         "blob/4306f5d42242bbaf9c285fd3c4809e314ef47614.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/58beb78726e76ab3d4ea2635d6b63ac597c32788.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/58beb78726e76ab3d4ea2635d6b63ac597c32788.nq.gz",
+      "repolex": "aggregate/repolex/58beb78726e76ab3d4ea2635d6b63ac597c32788.nq.gz",
+      "dep": "dep/58beb78726e76ab3d4ea2635d6b63ac597c32788.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "anyio",
+          "packageVersion": "4.9.0",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio",
+          "githubCommit": "a6e9ebb75f0e1492ab5d0740b2ca76d0137f95e3"
+        },
+        {
+          "packageName": "async-generator",
+          "packageVersion": "1.9.0",
+          "githubOrg": "python-trio",
+          "githubRepo": "async_generator",
+          "githubCommit": "HEAD"
+        }
       ]
     },
     {
