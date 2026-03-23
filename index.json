@@ -3,6 +3,11 @@
   "repo": "anyio",
   "versions": [
     {
+      "commit": "0828b4ffe0cdf83df60410315cb59002824f4b9b",
+      "tag": "",
+      "parsed_at": ""
+    },
+    {
       "commit": "246ec4295f05d8fb943a23d366f036346cbfe091",
       "tag": "",
       "parsed_at": ""
