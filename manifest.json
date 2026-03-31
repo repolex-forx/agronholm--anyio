@@ -60748,6 +60748,78 @@
         "blob/6d3583d28d626b3cf8d2b89ac503abb9790b44a4.nq.gz",
         "blob/97f0b7a7b0345beba1f492f881ec7f4c5ed71127.nq.gz",
         "blob/2840d40ab6a2fa222d6594d6980d8234df17eade.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/bc021b634291223d6829c0a689152173443a8545.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/bc021b634291223d6829c0a689152173443a8545.nq.gz",
+      "repolex": "aggregate/repolex/bc021b634291223d6829c0a689152173443a8545.nq.gz",
+      "dep": "dep/bc021b634291223d6829c0a689152173443a8545.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "exceptiongroup",
+          "ecosystem": "PYPI",
+          "version": "1.0.2",
+          "githubOrg": "agronholm",
+          "githubRepo": "exceptiongroup",
+          "githubCommit": "5bf369206f39d4c33516bb8010ef51b59ffa6ca9",
+          "githubTag": "1.0.2",
+          "githubUrl": "https://github.com/agronholm/exceptiongroup",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "2.8",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubCommit": "1cdf175e259b299be76f49c3ddc8794214f9931f",
+          "githubTag": "v2.8",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.5",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "trio",
+          "ecosystem": "PYPI",
+          "version": "0.32.0",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio",
+          "githubCommit": "c0b394a55594dc39f353bae87e745083acff172e",
+          "githubTag": "v0.32.0",
+          "githubUrl": "https://github.com/python-trio/trio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/psutil/__init__.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/packaging/version.py"
+        }
       ]
     },
     {
