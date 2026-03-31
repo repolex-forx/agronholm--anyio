@@ -66578,6 +66578,170 @@
         "blob/97f0b7a7b0345beba1f492f881ec7f4c5ed71127.nq.gz",
         "blob/2840d40ab6a2fa222d6594d6980d8234df17eade.nq.gz",
         "blob/0688bfe960cf9747373c93e482a64d1369befa11.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/053e8f0a0f7b0f4a47a012eb5c6b1d9d84344e6a.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/053e8f0a0f7b0f4a47a012eb5c6b1d9d84344e6a.nq.gz",
+      "repolex": "aggregate/repolex/053e8f0a0f7b0f4a47a012eb5c6b1d9d84344e6a.nq.gz",
+      "dep": "dep/053e8f0a0f7b0f4a47a012eb5c6b1d9d84344e6a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "exceptiongroup",
+          "ecosystem": "PYPI",
+          "version": "1.0.2",
+          "githubOrg": "agronholm",
+          "githubRepo": "exceptiongroup",
+          "githubCommit": "5bf369206f39d4c33516bb8010ef51b59ffa6ca9",
+          "githubTag": "1.0.2",
+          "githubUrl": "https://github.com/agronholm/exceptiongroup",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "2.8",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubCommit": "1cdf175e259b299be76f49c3ddc8794214f9931f",
+          "githubTag": "v2.8",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sniffio",
+          "ecosystem": "PYPI",
+          "version": "1.1",
+          "githubOrg": "python-trio",
+          "githubRepo": "sniffio",
+          "githubUrl": "https://github.com/python-trio/sniffio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.1",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "trio",
+          "ecosystem": "PYPI",
+          "version": "0.23",
+          "githubOrg": "python-trio",
+          "githubRepo": "trio",
+          "githubUrl": "https://github.com/python-trio/trio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "coverage",
+          "ecosystem": "PYPI",
+          "version": "7",
+          "githubOrg": "coveragepy",
+          "githubRepo": "coveragepy",
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "hypothesis",
+          "ecosystem": "PYPI",
+          "version": "4.0",
+          "githubOrg": "HypothesisWorks",
+          "githubRepo": "hypothesis",
+          "githubUrl": "https://github.com/HypothesisWorks/hypothesis",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "5.9",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-mock",
+          "ecosystem": "PYPI",
+          "version": "3.6.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-mock",
+          "githubCommit": "6730ce36c42752b45b9f7388a430f2fb80fd24f7",
+          "githubTag": "v3.6.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-mock",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "trustme",
+          "ecosystem": "PYPI",
+          "version": "1.2.1",
+          "githubOrg": "python-trio",
+          "githubRepo": "trustme",
+          "githubCommit": "6d39f51de72ce21bbb1d3842f8ed795b39e4cc9b",
+          "githubTag": "v1.2.1",
+          "githubUrl": "https://github.com/python-trio/trustme",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uvloop",
+          "ecosystem": "PYPI",
+          "version": "0.17",
+          "githubOrg": "MagicStack",
+          "githubRepo": "uvloop",
+          "githubUrl": "https://github.com/MagicStack/uvloop",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "7",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-rtd-theme",
+          "ecosystem": "PYPI",
+          "version": "3.1.0",
+          "githubOrg": "readthedocs",
+          "githubRepo": "sphinx_rtd_theme",
+          "githubCommit": "795de79c8b311592f5863a25307d85924bf52164",
+          "githubTag": "3.1.0",
+          "githubUrl": "https://github.com/readthedocs/sphinx_rtd_theme",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-autodoc-typehints",
+          "ecosystem": "PYPI",
+          "version": "1.2.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "sphinx-autodoc-typehints",
+          "githubCommit": "d967de1576e247b76b467adb01547921c0898886",
+          "githubTag": "1.2.0",
+          "githubUrl": "https://github.com/tox-dev/sphinx-autodoc-typehints",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
